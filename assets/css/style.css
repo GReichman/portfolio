@@ -1,3 +1,72 @@
 body{
     background-image: url('../pictures/rockywall.png');
 }
+
+.tealBackground{
+    background-color: #4aaaa5;
+}
+
+.regularFontColor{
+    color: #777777;
+}
+
+.header{
+    background-color: #ffffff;
+    border: 1px groove #cccccc;
+    border-top: none;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    position: absolute;
+    top: 0px;
+    left:0px;
+    width:100%;
+    height:10%;
+    margin:0px 0px 150px 0px;
+}
+
+.nameWrapper{
+    position:absolute;
+    left:10%;
+    width:20%;
+    height:100%;
+    top:0%;
+}
+
+.myName{
+    color:white;
+    padding:0px 20px 20px 20px;
+    font-weight: bold;
+    font-size:28px;
+    text-align: center;
+    
+}
+.linkSection{
+    position:absolute;
+    height:30%;
+    width:30%;
+    top: 10%;
+    right:5%
+}
+
+.links{
+    color:#777777;
+    position: relative;
+    text-decoration: none;
+    font-size: 20px;
+    border-right: 1px solid gray;
+    margin: 5px 5px 5px 5px;
+    float: left;
+    width: 25%;
+    height: 50%;
+    top:20px;
+    left: 35px;
+    padding: 5px 5px 10px 5px;
+    text-align: center;
+
+
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
