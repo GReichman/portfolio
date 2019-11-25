@@ -91,10 +91,6 @@ body{
     width: 960px;
 }
 
-#myPicture{
-    float: left;
-}
-
 .contentHeaders{
     color:#4aaaa5;
     font-family:'Georgia', Times, 'Times New Roman', serif;
@@ -111,9 +107,24 @@ body{
 }
 
 .bioContent{
-
+ position:relative;
+ width:95%;
+ left:3%;
 }
 
+#bioContentText{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    color:#777777;
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+#myPicture{
+    float: left;
+    height:150px;
+    width: 200px;
+    margin: 9px;
+}
 
 
 
