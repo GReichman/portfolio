@@ -25,7 +25,7 @@ body{
 
 .nameWrapper{
     position:absolute;
-    left:10%;
+    left:24%;
     width:20%;
     height:100%;
     top:0%;
@@ -44,7 +44,7 @@ body{
     height:30%;
     width:30%;
     top: 10%;
-    right:5%
+    right:21%;
 }
 
 .links{
@@ -81,6 +81,44 @@ body{
     bottom:0px;
     padding-bottom:0px;
 }
+
+.contentDefault{
+    position:absolute;
+    top:15%;
+    left:24%;
+    background-color:#ffffff;
+    border: 1px solid #dddddd;
+    width: 960px;
+}
+
+#myPicture{
+    float: left;
+}
+
+.contentHeaders{
+    color:#4aaaa5;
+    font-family:'Georgia', Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size:28px;
+}
+
+.contentHeaderText{
+    position: relative;
+    border-bottom: 2px solid gray;
+    padding-bottom: 20px;
+    width:95%;
+    left:3%;
+}
+
+.bioContent{
+
+}
+
+
+
+
+
+
 
 .clearfix::after {
     content: "";
